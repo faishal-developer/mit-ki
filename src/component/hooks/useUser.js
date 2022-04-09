@@ -76,11 +76,14 @@ const useUser = () => {
         .then(data=>{
             const newUsers = [...user];
             newUsers.push(fuser)
+            setUser(newUsers)
             Swal.fire(
                 'successfull',
                 'new user added',
                 'success'
             )
+            const heighestPage = Math.ceil(user.length / 5)
+            setPage(heighestPage)
         })
         .catch(e=>{
             Swal.fire(

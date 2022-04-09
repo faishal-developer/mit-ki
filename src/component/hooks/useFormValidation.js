@@ -36,7 +36,7 @@ const submit = (values, from, updateUser, addUser, setUser, setIsOpen) => {
 }
 
 const division ={
-    dhaka: ['Dhaka', 'Gazipur', 'Narsingdi', 'Manikganj', 'Munshiganj', 'Narayanganj', 'Mymensingh', 'Sherpur', 'Jamalpur'],
+    dhaka: ['Dhaka', 'Gazipur', 'Tangail', 'Faridpur', 'Munshiganj', 'Narayanganj', 'shoriotpur', 'Madaripur', 'Rajbari'],
     chittagong: ['Bandarban', 'Brahmanbaria', 'Chandpur', 'Chittagong', 'Comilla', 'Coxs Bazar','Feni','Noakhali','Luxmipur'],
     Rajsahi: ['Rajshahi','Sirajganj','Pabna','Bogura','Chapainawabganj','Naogaon','Joypurhat','Natore'],
     Barishal: ['Pirojpur', 'Patuakhali', 'Jhalokathi', 'Bhola', 'Barishal','Barguna'],

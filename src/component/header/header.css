@@ -45,3 +45,10 @@
     border: 1px solid #FF014F;
     /* border-radius: 3px; */
 }
+
+
+@media only screen and (max-width: 768px) {
+    .uheader-grid {
+        grid-template-columns: 120px 100px repeat(2, 1fr)
+    }
+}
