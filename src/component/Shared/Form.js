@@ -19,7 +19,7 @@ const SignupForm = (props) => {
 
     return (
         <div >
-            <h1 style={{ marginTop: 0, color: "#FF014F" }}>Edit User</h1>
+            <h1 style={{ marginTop: 0, color: "#FF014F" }}>{props?.from}</h1>
             <Formik
                 enableReinitialize
                 initialValues={user || initial}

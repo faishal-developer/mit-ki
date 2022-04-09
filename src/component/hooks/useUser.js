@@ -27,8 +27,8 @@ const useUser = () => {
     }
 
     const updateUser=(fuser)=>{
-        const url = `https://60f2479f6d44f300177885e6.mockapi.io/fusers/${fuser.id}`
-        console.log(fuser);
+        const url = `https://60f2479f6d44f300177885e6.mockapi.io/users/${fuser.id}`
+        console.log(fuser,url);
         fetch(url, {
             method: 'PUT',
             headers: {
@@ -82,7 +82,7 @@ const useUser = () => {
                 'new user added',
                 'success'
             )
-            const heighestPage = Math.ceil(user.length / 5)
+            const heighestPage = Math.ceil((user.length+1) / 5)
             setPage(heighestPage)
         })
         .catch(e=>{
