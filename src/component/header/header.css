@@ -1,0 +1,47 @@
+/* navbar styling */
+.header-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.header-button {
+    box-shadow: 2px 1px 3px #d3d3d3,
+        -2px -1px 2px #fff;
+    border-radius: 8px;
+    background: #edf1f3;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #FF014F;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.h-b-active,
+.header-button:hover {
+    background-color: #FF014F;
+    color: white;
+}
+
+.header-add-user {
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* user header */
+.uheader-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #FF014F;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+/* layout */
+.layout-button {
+    border: 1px solid #FF014F;
+    /* border-radius: 3px; */
+}

@@ -1,0 +1,15 @@
+.pagination-center {
+    margin: auto;
+    width: 400px
+}
+
+.p-button {
+    padding: 8px;
+    border: 1px solid #FF014F;
+    cursor: pointer;
+}
+
+.p-active-button {
+    background-color: #FF014F;
+    color: white;
+}

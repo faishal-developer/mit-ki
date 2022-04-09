@@ -1,0 +1,14 @@
+.form-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+    align-items: center;
+}
+
+.form-input {
+    width: 200px;
+    height: 25px;
+    outline: 1px #FF014F;
+    margin: 10px;
+    /* outline-style: solid; */
+}
